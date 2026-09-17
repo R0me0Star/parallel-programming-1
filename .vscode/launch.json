@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Parallel Sum (Args)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/Main",
+      "args": ["4"],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "preLaunchTask": "Build C++14 Parallel Sum",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
